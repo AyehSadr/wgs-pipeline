@@ -1,0 +1,54 @@
+# Data files
+*.fq.gz
+*.fastq.gz
+*.bam
+*.bai
+*.sam
+*.vcf
+*.vcf.gz
+
+# Output directories
+fastqc/
+multiqc/
+BWA/
+sorted/
+Picard/
+output/
+results/
+
+# SLURM job outputs
+*.out
+*.err
+*_*.out
+*_*.err
+
+# R workspace and history
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Cache files
+.cache/
+*.cache
+
+# Large data files (if any)
+*.h5
+*.hdf5
+
