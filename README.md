@@ -118,7 +118,7 @@ JOB4=$(sbatch --dependency=afterok:$JOB3 Remove_Duplicates_Picard.sh | awk '{pri
 
 If you use this pipeline in your research, please cite:
 
-- [Your manuscript citation here]
+- Roux, C., Hamer, S., Shea, A., Chen, E., Sadr, A. S., English, C., Sahoo, S., Anido, A. A., Che, H., Chesler, L., Jolly, M. K., Morgan, M. D., & Bruna, A. (2023). **Dynamic Plasticity Systems Direct Early Adaptation to Treatment in Neuroblastoma**. *bioRxiv*. https://doi.org/10.1101/2023.12.07.570359
 
 ## License
 
